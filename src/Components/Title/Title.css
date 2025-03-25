@@ -16,3 +16,11 @@
   font-weight: bold;
   color: #8338ec;
 }
+@media (max-width: 768px) {
+  .subtitle {
+    font-size: 1.2rem;
+  }
+  .title {
+    font-size: 1.5rem;
+  }
+}

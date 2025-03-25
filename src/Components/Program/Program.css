@@ -50,3 +50,10 @@
   opacity: 1;
   cursor: pointer;
 }
+
+@media (max-width: 768px) {
+  .programs {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}

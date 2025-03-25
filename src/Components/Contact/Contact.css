@@ -1,0 +1,53 @@
+.contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.contact-col {
+  padding: 2rem;
+}
+.contact-col h3 {
+  text-align: center;
+  font-size: 2rem;
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+  line-height: 1.7;
+}
+.contact-ul {
+  margin: 2rem 0;
+}
+.contact-ul li img {
+  width: 2rem;
+}
+.contact-ul li {
+  display: flex;
+  gap: 1rem;
+  padding-bottom: 0.7rem;
+}
+.dark-btn {
+  margin-top: 3rem;
+  background-color: #212ea0;
+  color: #fff;
+  padding: 1rem 2rem;
+}
+.contact-col form input,
+.contact-col form textarea {
+  width: 100%;
+  display: block;
+  outline: none;
+  border: none;
+  background: #ebecfe;
+  padding: 1rem;
+  font-size: 1.6rem;
+}
+.contact-col label {
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  font-size: 1.8rem;
+  line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+  .contact {
+    grid-template-columns: 1fr;
+  }
+}

@@ -9,6 +9,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 10;
 }
 nav h1 {
   font-size: 2rem;
@@ -23,5 +24,56 @@ nav h1 {
 
   & li {
     cursor: pointer;
+  }
+}
+.dark-nav {
+  background-color: #212ea0;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  & h1 {
+    color: #fff;
+  }
+}
+.menu-bar {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .nav-list {
+    display: none;
+  }
+  .nav-mobile {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #390099;
+    padding-top: 8rem;
+    width: 40%;
+  }
+  .nav-mobile li {
+    margin: 2rem 3rem;
+    cursor: pointer;
+  }
+  .menu-bar {
+    display: inline-block;
+    padding: 0 3rem;
+    z-index: 20;
+
+    & p {
+      font-size: 2rem;
+      cursor: pointer;
+    }
+  }
+  .skillmentor {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 440px) {
+  .nav-mobile {
+    width: 50%;
   }
 }

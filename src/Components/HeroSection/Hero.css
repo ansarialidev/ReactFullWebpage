@@ -20,3 +20,15 @@
   padding: 1rem 2rem;
   margin: 2rem 0;
 }
+
+@media (max-width: 768px) {
+  .hero-text {
+    font-size: 2rem;
+    line-height: 1.2;
+    text-align: center;
+  }
+  .hero-desc {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+}

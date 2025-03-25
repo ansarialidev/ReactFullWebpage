@@ -53,3 +53,8 @@ p {
   -ms-border-radius: 0.8rem;
   -o-border-radius: 0.8rem;
 }
+@media (max-width: 768px) {
+  .container {
+    padding: 0 1.3rem;
+  }
+}

@@ -1,0 +1,17 @@
+.footer {
+  background-color: #212ea0;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 0;
+}
+.footer p {
+  font-weight: bold;
+  line-height: 1.4;
+  letter-spacing: 0.2rem;
+}
+.footer ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  margin-top: 2rem;
+}
